@@ -1,5 +1,5 @@
 var BASE_URL = 'http://api.reactprototypes.com';
-var API_KEY = '?key=testuser1234';
+var API_KEY = '?key=c118demouser';
 
 axios.get(BASE_URL + '/todos' + API_KEY).then(function(resp){
     var todos = resp.data.todos;
